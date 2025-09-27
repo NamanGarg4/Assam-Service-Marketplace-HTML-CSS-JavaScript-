@@ -4,26 +4,26 @@ This is a web application where anyone in Assam can find common services like ta
 
 
 Features
-1 Users can choose from common services in Assam
-2 Shows service provider details like name, location, and contact info
-3 Users can search by location to find nearby services
-4 Language toggle between English and Assamese
-5 Responsive design for desktop and mobile
-6 Simple and interactive interface
+1. Users can choose from common services in Assam
+2. Shows service provider details like name, location, and contact info
+3. Users can search by location to find nearby services
+4. Language toggle between English and Assamese
+5. Responsive design for desktop and mobile
+6. Simple and interactive interface
 
 
 How to Use
-1 Download or clone the project
-2 Open index.html in your browser
-3 Choose a service and optionally enter your location
-4 Click Find Service to see available providers
-5 Use the language toggle to switch between English and Assamese
+1. Download or clone the project
+2. Open index.html in your browser
+3. Choose a service and optionally enter your location
+4. Click Find Service to see available providers
+5. Use the language toggle to switch between English and Assamese
 
 
 Files
-1 index.html main webpage
-2 style.css styling of the webpage
-3 script.js interactive features like language toggle and search
+1. index.html main webpage
+2. style.css styling of the webpage
+3. script.js interactive features like language toggle and search
 
 
 Future Ideas
