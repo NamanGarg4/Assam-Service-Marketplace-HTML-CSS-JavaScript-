@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assam Service Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Assam Service Marketplace</h1>
+            <button id="languageToggle">অসমীয়া</button>
+        </header>
+
+        <section class="service-form">
+            <label id="serviceLabel" for="serviceInput">Select service:</label>
+            <select id="serviceInput">
+                <option value="taxi">Taxi</option>
+                <option value="cleaning">Cleaning</option>
+                <option value="tuition">Tuition</option>
+                <option value="plumbing">Plumbing</option>
+                <option value="electrician">Electrician</option>
+                <option value="delivery">Delivery</option>
+                <option value="grocery">Grocery</option>
+                <option value="medical">Medical</option>
+            </select>
+
+            <label id="locationLabel" for="locationInput">Your location:</label>
+            <input type="text" id="locationInput" placeholder="Enter city or area">
+
+            <button id="findServiceBtn">Find Service</button>
+        </section>
+
+        <section class="ai-suggestions">
+            <h2 id="suggestionsTitle">Available Services:</h2>
+            <div id="suggestions" class="cards-container"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

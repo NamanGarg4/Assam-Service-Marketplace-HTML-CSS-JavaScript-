@@ -1,0 +1,100 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #a8edea, #fed6e3);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 26px;
+    color: #333;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff5e62;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff2e2e;
+}
+
+label, select, input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.ai-suggestions {
+    margin-top: 30px;
+}
+
+.ai-suggestions h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.service-card {
+    border-radius: 10px;
+    padding: 15px;
+    background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.service-card strong {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
